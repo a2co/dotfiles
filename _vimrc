@@ -35,7 +35,7 @@ NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'tpope/vim-surround'
 
 " インデントに色を付けて見やすくする
-NeoBundle 'nathanaelkane/vim-indent-guides'
+" NeoBundle 'nathanaelkane/vim-indent-guides'
 " ログファイルを色づけしてくれる
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 " 行末の半角スペースを可視化(うまく動かない？)
@@ -84,7 +84,7 @@ set shiftwidth=2
 set smarttab
 syntax on
 
-let g:indent_guides_enable_on_vim_startup = 1
+" let g:indent_guides_enable_on_vim_startup = 1
 autocmd QuickFixCmdPost *grep* cwindow
 
 " http://blog.remora.cx/2010/12/vim-ref-with-unite.html
